@@ -1,6 +1,16 @@
-{
-"evets":[
-{
-start:"23.03.2019"
-end:"24.03.2019"
-title:"EVENT 1"}]}
+[
+    {
+      title  : 'event1',
+      start  : '2010-01-01'
+    },
+    {
+      title  : 'event2',
+      start  : '2010-01-05',
+      end    : '2010-01-07'
+    },
+    {
+      title  : 'event3',
+      start  : '2010-01-09T12:30:00',
+      allDay : false // will make the time show
+    }
+  ]
